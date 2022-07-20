@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;1,400&display=swap');
+*{
+    /* outline: red 1px solid; */
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    
+}
+
+body{
+    background: url(cup.jpg) no-repeat center center/cover  ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-container{
+    background-color:#fff;
+    display: flex;
+    width: 70%;
+    height: 70%;
+    border: 1px solid;
+    border-radius: 7px;
+    flex-direction: column;
+    padding: 10px;
+    transition: .50s;
+  
+
+}
+#heading{
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: center;
+}
+hr{
+    margin-right: 10px ;
+    margin-left: 10px;
+}
+p{
+    font-weight: bold;
+    text-transform: capitalize;
+   
+}
+
+.q:hover{
+    /* background-color: tomato; */
+    font-size: 20px;
+    transition-duration: 1s;
+    
+}
+
+
+.acordion{
+    height: 10vh;
+   overflow: hidden;
+}
+.active{
+    
+    height: auto;
+    overflow:visible;
+    
+    
+} 
+
